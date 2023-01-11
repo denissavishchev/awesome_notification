@@ -84,7 +84,8 @@ class _MyAppState extends State<MyApp> {
               child: Column(
                 children: const [
                   ElevatedButton(
-                      onPressed: createNotification,
+                      onPressed:
+                        createNotification,
                       child: Text('Notification'))
                 ],
               ),
